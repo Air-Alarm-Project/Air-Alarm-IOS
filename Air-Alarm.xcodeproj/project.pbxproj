@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A26A4B026DA68BF00670DFB /* UnderLineTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A26A4AF26DA68BF00670DFB /* UnderLineTextFieldView.swift */; };
+		2A3A9E33271484D1004DAE6C /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3A9E32271484D1004DAE6C /* WeatherInfo.swift */; };
+		2A3A9E3527148A01004DAE6C /* WeatherInfoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3A9E3427148A01004DAE6C /* WeatherInfoo.swift */; };
+		2A4256332704244800B26232 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4256322704244800B26232 /* Alarm.swift */; };
+		2A42563A270424A400B26232 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A425639270424A400B26232 /* Settings.swift */; };
+		2A42563C270424BC00B26232 /* changeSN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42563B270424BC00B26232 /* changeSN.swift */; };
+		2A42563E270424D000B26232 /* myInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42563D270424D000B26232 /* myInfo.swift */; };
+		2A425640270424E200B26232 /* sensorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42563F270424E200B26232 /* sensorInfo.swift */; };
+		2A425642270424F900B26232 /* programmerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A425641270424F900B26232 /* programmerInfo.swift */; };
+		2A42564A270430A700B26232 /* ContentLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A425649270430A700B26232 /* ContentLogin.swift */; };
+		2A42564D2704934500B26232 /* DustInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42564C2704934500B26232 /* DustInfo.swift */; };
+		2A42564F2704936000B26232 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42564E2704936000B26232 /* Login.swift */; };
+		2A4256512704936F00B26232 /* LoginSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4256502704936F00B26232 /* LoginSuccess.swift */; };
+		2A4256532704937C00B26232 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4256522704937C00B26232 /* Member.swift */; };
+		2A425655270493C800B26232 /* SignUpMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A425654270493C800B26232 /* SignUpMember.swift */; };
+		2A425657270493EF00B26232 /* SignUpSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A425656270493EF00B26232 /* SignUpSuccess.swift */; };
+		2A5CE66927183C8700D458C7 /* getSNSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CE66827183C8700D458C7 /* getSNSuccess.swift */; };
+		2A5CE66B27183CBA00D458C7 /* getSN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CE66A27183CBA00D458C7 /* getSN.swift */; };
+		2A5CE66F27184AE700D458C7 /* changeSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CE66E27184AE700D458C7 /* changeSuccess.swift */; };
+		2A5CE673271852E100D458C7 /* changeSNkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CE672271852E100D458C7 /* changeSNkey.swift */; };
+		2A7F05FB270ACDF900194F8D /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F05FA270ACDF900194F8D /* LocalNotificationManager.swift */; };
+		2A996A5A26C8285D0088BAB6 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A996A5926C8285D0088BAB6 /* Signup.swift */; };
+		2AEAB2F526BC424B009C1D21 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAB2F426BC424B009C1D21 /* MainTabView.swift */; };
+		2AEAB2F726BC42AB009C1D21 /* AList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAB2F626BC42AB009C1D21 /* AList.swift */; };
+		2AEAB2F926BC42CB009C1D21 /* BList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAB2F826BC42CB009C1D21 /* BList.swift */; };
+		2AEAB2FB26BC42E2009C1D21 /* CList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAB2FA26BC42E2009C1D21 /* CList.swift */; };
+		F7C43CC426EB00CB00DD3229 /* ChartsStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C43CC326EB00CB00DD3229 /* ChartsStyle.swift */; };
+		F7C43CC626EB00DC00DD3229 /* ChartsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C43CC526EB00DC00DD3229 /* ChartsData.swift */; };
+		F7C43CC926EB012800DD3229 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = F7C43CC826EB012800DD3229 /* SwiftUICharts */; };
+		F95CD7A326C7E9FB00CDDFA5 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD7A226C7E9FB00CDDFA5 /* RestAPI.swift */; };
+		F987CBAA26BC3D050061A4A2 /* Air_AlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F987CBA926BC3D050061A4A2 /* Air_AlarmApp.swift */; };
+		F987CBAC26BC3D050061A4A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F987CBAB26BC3D050061A4A2 /* ContentView.swift */; };
+		F987CBAE26BC3D050061A4A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F987CBAD26BC3D050061A4A2 /* Assets.xcassets */; };
+		F987CBB126BC3D050061A4A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F987CBB026BC3D050061A4A2 /* Preview Assets.xcassets */; };
+		F987CBBC26BC3D050061A4A2 /* Air_AlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F987CBBB26BC3D050061A4A2 /* Air_AlarmTests.swift */; };
+		F987CBC726BC3D050061A4A2 /* Air_AlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F987CBC626BC3D050061A4A2 /* Air_AlarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F987CBB826BC3D050061A4A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F987CB9E26BC3D050061A4A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F987CBA526BC3D050061A4A2;
+			remoteInfo = "Air-Alarm";
+		};
+		F987CBC326BC3D050061A4A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F987CB9E26BC3D050061A4A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F987CBA526BC3D050061A4A2;
+			remoteInfo = "Air-Alarm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A26A4AF26DA68BF00670DFB /* UnderLineTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderLineTextFieldView.swift; sourceTree = "<group>"; };
+		2A3A9E32271484D1004DAE6C /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
+		2A3A9E3427148A01004DAE6C /* WeatherInfoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfoo.swift; sourceTree = "<group>"; };
+		2A4256322704244800B26232 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		2A425639270424A400B26232 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2A42563B270424BC00B26232 /* changeSN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeSN.swift; sourceTree = "<group>"; };
+		2A42563D270424D000B26232 /* myInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myInfo.swift; sourceTree = "<group>"; };
+		2A42563F270424E200B26232 /* sensorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensorInfo.swift; sourceTree = "<group>"; };
+		2A425641270424F900B26232 /* programmerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmerInfo.swift; sourceTree = "<group>"; };
+		2A425649270430A700B26232 /* ContentLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLogin.swift; sourceTree = "<group>"; };
+		2A42564C2704934500B26232 /* DustInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DustInfo.swift; sourceTree = "<group>"; };
+		2A42564E2704936000B26232 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		2A4256502704936F00B26232 /* LoginSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccess.swift; sourceTree = "<group>"; };
+		2A4256522704937C00B26232 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		2A425654270493C800B26232 /* SignUpMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMember.swift; sourceTree = "<group>"; };
+		2A425656270493EF00B26232 /* SignUpSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSuccess.swift; sourceTree = "<group>"; };
+		2A5CE66827183C8700D458C7 /* getSNSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getSNSuccess.swift; sourceTree = "<group>"; };
+		2A5CE66A27183CBA00D458C7 /* getSN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getSN.swift; sourceTree = "<group>"; };
+		2A5CE66E27184AE700D458C7 /* changeSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeSuccess.swift; sourceTree = "<group>"; };
+		2A5CE672271852E100D458C7 /* changeSNkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeSNkey.swift; sourceTree = "<group>"; };
+		2A7F05FA270ACDF900194F8D /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		2A996A5926C8285D0088BAB6 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		2AEAB2F426BC424B009C1D21 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		2AEAB2F626BC42AB009C1D21 /* AList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AList.swift; sourceTree = "<group>"; };
+		2AEAB2F826BC42CB009C1D21 /* BList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BList.swift; sourceTree = "<group>"; };
+		2AEAB2FA26BC42E2009C1D21 /* CList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CList.swift; sourceTree = "<group>"; };
+		F7C43CC326EB00CB00DD3229 /* ChartsStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsStyle.swift; sourceTree = "<group>"; };
+		F7C43CC526EB00DC00DD3229 /* ChartsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsData.swift; sourceTree = "<group>"; };
+		F95CD7A226C7E9FB00CDDFA5 /* RestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPI.swift; sourceTree = "<group>"; };
+		F987CBA626BC3D050061A4A2 /* Air-Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Air-Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F987CBA926BC3D050061A4A2 /* Air_AlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_AlarmApp.swift; sourceTree = "<group>"; };
+		F987CBAB26BC3D050061A4A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F987CBAD26BC3D050061A4A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F987CBB026BC3D050061A4A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F987CBB226BC3D050061A4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F987CBB726BC3D050061A4A2 /* Air-AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air-AlarmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F987CBBB26BC3D050061A4A2 /* Air_AlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_AlarmTests.swift; sourceTree = "<group>"; };
+		F987CBBD26BC3D050061A4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F987CBC226BC3D050061A4A2 /* Air-AlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air-AlarmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F987CBC626BC3D050061A4A2 /* Air_AlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_AlarmUITests.swift; sourceTree = "<group>"; };
+		F987CBC826BC3D050061A4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F987CBA326BC3D050061A4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C43CC926EB012800DD3229 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987CBB426BC3D050061A4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987CBBF26BC3D050061A4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A26A4B326DB5EBD00670DFB /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				2AEAB2F426BC424B009C1D21 /* MainTabView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		2A42562F2704242300B26232 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				2A4256322704244800B26232 /* Alarm.swift */,
+				2A7F05FA270ACDF900194F8D /* LocalNotificationManager.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		2A4256382704249200B26232 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				2A425639270424A400B26232 /* Settings.swift */,
+				2A42563D270424D000B26232 /* myInfo.swift */,
+				2A42563B270424BC00B26232 /* changeSN.swift */,
+				2A42563F270424E200B26232 /* sensorInfo.swift */,
+				2A425641270424F900B26232 /* programmerInfo.swift */,
+				2A3A9E3427148A01004DAE6C /* WeatherInfoo.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		2A42564B2704933000B26232 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				2A42564C2704934500B26232 /* DustInfo.swift */,
+				2A42564E2704936000B26232 /* Login.swift */,
+				2A4256502704936F00B26232 /* LoginSuccess.swift */,
+				2A4256522704937C00B26232 /* Member.swift */,
+				2A425654270493C800B26232 /* SignUpMember.swift */,
+				2A425656270493EF00B26232 /* SignUpSuccess.swift */,
+				2A3A9E32271484D1004DAE6C /* WeatherInfo.swift */,
+				2A5CE66A27183CBA00D458C7 /* getSN.swift */,
+				2A5CE66827183C8700D458C7 /* getSNSuccess.swift */,
+				2A5CE672271852E100D458C7 /* changeSNkey.swift */,
+				2A5CE66E27184AE700D458C7 /* changeSuccess.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		2A7F05FC270AD90700194F8D /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				2A996A5926C8285D0088BAB6 /* Signup.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		2A7F05FD270AD9A600194F8D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F95CD7A226C7E9FB00CDDFA5 /* RestAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2A7F05FE270AD9C500194F8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AEAB2F626BC42AB009C1D21 /* AList.swift */,
+				2AEAB2F826BC42CB009C1D21 /* BList.swift */,
+				2AEAB2FA26BC42E2009C1D21 /* CList.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A996A4C26C781990088BAB6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F987CBAB26BC3D050061A4A2 /* ContentView.swift */,
+				2A425649270430A700B26232 /* ContentLogin.swift */,
+				2A26A4AF26DA68BF00670DFB /* UnderLineTextFieldView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F7C43CC226EB00A700DD3229 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				F7C43CC326EB00CB00DD3229 /* ChartsStyle.swift */,
+				F7C43CC526EB00DC00DD3229 /* ChartsData.swift */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
+		F987CB9D26BC3D050061A4A2 = {
+			isa = PBXGroup;
+			children = (
+				F987CBA826BC3D050061A4A2 /* Air-Alarm */,
+				F987CBBA26BC3D050061A4A2 /* Air-AlarmTests */,
+				F987CBC526BC3D050061A4A2 /* Air-AlarmUITests */,
+				F987CBA726BC3D050061A4A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F987CBA726BC3D050061A4A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F987CBA626BC3D050061A4A2 /* Air-Alarm.app */,
+				F987CBB726BC3D050061A4A2 /* Air-AlarmTests.xctest */,
+				F987CBC226BC3D050061A4A2 /* Air-AlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F987CBA826BC3D050061A4A2 /* Air-Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				2A26A4B326DB5EBD00670DFB /* Tab */,
+				2A7F05FE270AD9C500194F8D /* View */,
+				2A996A4C26C781990088BAB6 /* Login */,
+				2A7F05FC270AD90700194F8D /* SignUp */,
+				2A4256382704249200B26232 /* Setting */,
+				2A42562F2704242300B26232 /* Notification */,
+				F7C43CC226EB00A700DD3229 /* ChartView */,
+				2A42564B2704933000B26232 /* DTO */,
+				2A7F05FD270AD9A600194F8D /* API */,
+				F987CBB226BC3D050061A4A2 /* Info.plist */,
+				F987CBAD26BC3D050061A4A2 /* Assets.xcassets */,
+				F987CBA926BC3D050061A4A2 /* Air_AlarmApp.swift */,
+				F987CBAF26BC3D050061A4A2 /* Preview Content */,
+			);
+			path = "Air-Alarm";
+			sourceTree = "<group>";
+		};
+		F987CBAF26BC3D050061A4A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F987CBB026BC3D050061A4A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F987CBBA26BC3D050061A4A2 /* Air-AlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				F987CBBB26BC3D050061A4A2 /* Air_AlarmTests.swift */,
+				F987CBBD26BC3D050061A4A2 /* Info.plist */,
+			);
+			path = "Air-AlarmTests";
+			sourceTree = "<group>";
+		};
+		F987CBC526BC3D050061A4A2 /* Air-AlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F987CBC626BC3D050061A4A2 /* Air_AlarmUITests.swift */,
+				F987CBC826BC3D050061A4A2 /* Info.plist */,
+			);
+			path = "Air-AlarmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F987CBA526BC3D050061A4A2 /* Air-Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F987CBCB26BC3D050061A4A2 /* Build configuration list for PBXNativeTarget "Air-Alarm" */;
+			buildPhases = (
+				F987CBA226BC3D050061A4A2 /* Sources */,
+				F987CBA326BC3D050061A4A2 /* Frameworks */,
+				F987CBA426BC3D050061A4A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Air-Alarm";
+			packageProductDependencies = (
+				F7C43CC826EB012800DD3229 /* SwiftUICharts */,
+			);
+			productName = "Air-Alarm";
+			productReference = F987CBA626BC3D050061A4A2 /* Air-Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F987CBB626BC3D050061A4A2 /* Air-AlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F987CBCE26BC3D050061A4A2 /* Build configuration list for PBXNativeTarget "Air-AlarmTests" */;
+			buildPhases = (
+				F987CBB326BC3D050061A4A2 /* Sources */,
+				F987CBB426BC3D050061A4A2 /* Frameworks */,
+				F987CBB526BC3D050061A4A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F987CBB926BC3D050061A4A2 /* PBXTargetDependency */,
+			);
+			name = "Air-AlarmTests";
+			productName = "Air-AlarmTests";
+			productReference = F987CBB726BC3D050061A4A2 /* Air-AlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F987CBC126BC3D050061A4A2 /* Air-AlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F987CBD126BC3D050061A4A2 /* Build configuration list for PBXNativeTarget "Air-AlarmUITests" */;
+			buildPhases = (
+				F987CBBE26BC3D050061A4A2 /* Sources */,
+				F987CBBF26BC3D050061A4A2 /* Frameworks */,
+				F987CBC026BC3D050061A4A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F987CBC426BC3D050061A4A2 /* PBXTargetDependency */,
+			);
+			name = "Air-AlarmUITests";
+			productName = "Air-AlarmUITests";
+			productReference = F987CBC226BC3D050061A4A2 /* Air-AlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F987CB9E26BC3D050061A4A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F987CBA526BC3D050061A4A2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F987CBB626BC3D050061A4A2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F987CBA526BC3D050061A4A2;
+					};
+					F987CBC126BC3D050061A4A2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F987CBA526BC3D050061A4A2;
+					};
+				};
+			};
+			buildConfigurationList = F987CBA126BC3D050061A4A2 /* Build configuration list for PBXProject "Air-Alarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F987CB9D26BC3D050061A4A2;
+			packageReferences = (
+				F7C43CC726EB012800DD3229 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = F987CBA726BC3D050061A4A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F987CBA526BC3D050061A4A2 /* Air-Alarm */,
+				F987CBB626BC3D050061A4A2 /* Air-AlarmTests */,
+				F987CBC126BC3D050061A4A2 /* Air-AlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F987CBA426BC3D050061A4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F987CBB126BC3D050061A4A2 /* Preview Assets.xcassets in Resources */,
+				F987CBAE26BC3D050061A4A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987CBB526BC3D050061A4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987CBC026BC3D050061A4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F987CBA226BC3D050061A4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F05FB270ACDF900194F8D /* LocalNotificationManager.swift in Sources */,
+				F95CD7A326C7E9FB00CDDFA5 /* RestAPI.swift in Sources */,
+				2A3A9E3527148A01004DAE6C /* WeatherInfoo.swift in Sources */,
+				F987CBAC26BC3D050061A4A2 /* ContentView.swift in Sources */,
+				2A42563C270424BC00B26232 /* changeSN.swift in Sources */,
+				2AEAB2FB26BC42E2009C1D21 /* CList.swift in Sources */,
+				2A425655270493C800B26232 /* SignUpMember.swift in Sources */,
+				2AEAB2F926BC42CB009C1D21 /* BList.swift in Sources */,
+				2A425642270424F900B26232 /* programmerInfo.swift in Sources */,
+				2A42564D2704934500B26232 /* DustInfo.swift in Sources */,
+				F7C43CC626EB00DC00DD3229 /* ChartsData.swift in Sources */,
+				F987CBAA26BC3D050061A4A2 /* Air_AlarmApp.swift in Sources */,
+				2A4256332704244800B26232 /* Alarm.swift in Sources */,
+				2A425657270493EF00B26232 /* SignUpSuccess.swift in Sources */,
+				F7C43CC426EB00CB00DD3229 /* ChartsStyle.swift in Sources */,
+				2A5CE66927183C8700D458C7 /* getSNSuccess.swift in Sources */,
+				2A996A5A26C8285D0088BAB6 /* Signup.swift in Sources */,
+				2A42564A270430A700B26232 /* ContentLogin.swift in Sources */,
+				2A42563E270424D000B26232 /* myInfo.swift in Sources */,
+				2A5CE66B27183CBA00D458C7 /* getSN.swift in Sources */,
+				2A4256512704936F00B26232 /* LoginSuccess.swift in Sources */,
+				2A42563A270424A400B26232 /* Settings.swift in Sources */,
+				2A3A9E33271484D1004DAE6C /* WeatherInfo.swift in Sources */,
+				2A42564F2704936000B26232 /* Login.swift in Sources */,
+				2AEAB2F526BC424B009C1D21 /* MainTabView.swift in Sources */,
+				2A5CE673271852E100D458C7 /* changeSNkey.swift in Sources */,
+				2AEAB2F726BC42AB009C1D21 /* AList.swift in Sources */,
+				2A26A4B026DA68BF00670DFB /* UnderLineTextFieldView.swift in Sources */,
+				2A425640270424E200B26232 /* sensorInfo.swift in Sources */,
+				2A4256532704937C00B26232 /* Member.swift in Sources */,
+				2A5CE66F27184AE700D458C7 /* changeSuccess.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987CBB326BC3D050061A4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F987CBBC26BC3D050061A4A2 /* Air_AlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987CBBE26BC3D050061A4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F987CBC726BC3D050061A4A2 /* Air_AlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F987CBB926BC3D050061A4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F987CBA526BC3D050061A4A2 /* Air-Alarm */;
+			targetProxy = F987CBB826BC3D050061A4A2 /* PBXContainerItemProxy */;
+		};
+		F987CBC426BC3D050061A4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F987CBA526BC3D050061A4A2 /* Air-Alarm */;
+			targetProxy = F987CBC326BC3D050061A4A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F987CBC926BC3D050061A4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F987CBCA26BC3D050061A4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F987CBCC26BC3D050061A4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Air-Alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = JVBAL8CV7V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Air-Alarm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hahahhhaha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F987CBCD26BC3D050061A4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Air-Alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = JVBAL8CV7V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Air-Alarm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hahahhhaha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F987CBCF26BC3D050061A4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 486658WQ6M;
+				INFOPLIST_FILE = "Air-AlarmTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-alarm.Air-AlarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Air-Alarm.app/Air-Alarm";
+			};
+			name = Debug;
+		};
+		F987CBD026BC3D050061A4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 486658WQ6M;
+				INFOPLIST_FILE = "Air-AlarmTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-alarm.Air-AlarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Air-Alarm.app/Air-Alarm";
+			};
+			name = Release;
+		};
+		F987CBD226BC3D050061A4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 486658WQ6M;
+				INFOPLIST_FILE = "Air-AlarmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-alarm.Air-AlarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Air-Alarm";
+			};
+			name = Debug;
+		};
+		F987CBD326BC3D050061A4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 486658WQ6M;
+				INFOPLIST_FILE = "Air-AlarmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-alarm.Air-AlarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Air-Alarm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F987CBA126BC3D050061A4A2 /* Build configuration list for PBXProject "Air-Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F987CBC926BC3D050061A4A2 /* Debug */,
+				F987CBCA26BC3D050061A4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F987CBCB26BC3D050061A4A2 /* Build configuration list for PBXNativeTarget "Air-Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F987CBCC26BC3D050061A4A2 /* Debug */,
+				F987CBCD26BC3D050061A4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F987CBCE26BC3D050061A4A2 /* Build configuration list for PBXNativeTarget "Air-AlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F987CBCF26BC3D050061A4A2 /* Debug */,
+				F987CBD026BC3D050061A4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F987CBD126BC3D050061A4A2 /* Build configuration list for PBXNativeTarget "Air-AlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F987CBD226BC3D050061A4A2 /* Debug */,
+				F987CBD326BC3D050061A4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7C43CC726EB012800DD3229 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7C43CC826EB012800DD3229 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7C43CC726EB012800DD3229 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F987CB9E26BC3D050061A4A2 /* Project object */;
+}
